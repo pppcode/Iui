@@ -1,9 +1,8 @@
 <template>
   <!-- CSS 控制类，再去添加对应的样式（改变元素的展示顺序） -->
   <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
-    <svg v-if="icon" class="icon">
-      <use :xlink:href="`#i-${icon}`"></use>
-    </svg>
+    <!--  拆分icon组件  -->
+    <g-icon v-if="icon" :name="icon"></g-icon>
     <div class="content">
       <slot></slot>
     </div>
