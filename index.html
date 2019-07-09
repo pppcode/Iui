@@ -1,39 +1,59 @@
 <!doctype html>
 <html lang="zh-hans">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Iui</title>
-    <style>
-        *{margin:0; padding:0; box-sizing:border-box;}
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Iui</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        /* 使用变量,用户自定义字体大小(和页面上其他内容保持一致) */
-        :root {
-            --button-height: 32px;
-            --font-size: 14px;
-            --button-bg: white;
-            --button-active-bg: #eee;
-            --border-radius: 4px;
-            --color: #333;
-            --border-color: #999;
-            --border-color-hover: #666;
-        }
-        #app {
-            margin: 20px;
-        }
-        body {
-            font-size: var(--font-size);
-        }
-    </style>
-    <style>
-    </style>
+    /* 使用变量,用户自定义字体大小(和页面上其他内容保持一致) */
+    :root {
+      --button-height: 32px;
+      --font-size: 14px;
+      --button-bg: white;
+      --button-active-bg: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999;
+      --border-color-hover: #666;
+    }
+
+    #app {
+      margin: 20px;
+    }
+
+    body {
+      font-size: var(--font-size);
+    }
+  </style>
+  <style>
+    /* 宽高都是1：1，用em和字体关联 */
+    .icon {
+      width: 1em;
+      height: 1em
+    }
+  </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+  <g-button>
+    文字
+  </g-button>
+  <g-button icon="settings">
+    文字
+  </g-button>
+  <g-button icon="settings" icon-position="right">
+    文字
+  </g-button>
 </div>
 <script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_1284983_lo6hw0mxl3h.js"></script>
 </body>
 </html>
