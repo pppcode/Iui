@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pppcode/Iui/issues"
   },
-  "homepage": "https://github.com/pppcode/Iui#readme"
+  "homepage": "https://github.com/pppcode/Iui#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
