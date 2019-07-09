@@ -1,9 +1,10 @@
 <template>
   <!-- CSS 控制类，再去添加对应的样式（改变元素的展示顺序） -->
-  <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
+  <button class="g-button" :class="{[`icon-${iconPosition}`]: true}"
+    @click="$emit('click')">
     <!--  拆分icon组件  -->
-    <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
-    <g-icon class="loading" name="loading"></g-icon>
+    <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
+    <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -29,6 +30,10 @@
     // props: ['icon', 'iconPosition'], iconPosition 不传值得话为undefined
     props: {
       icon: {},
+      loading: {
+        type: Boolean,
+        default: false
+      },
       iconPosition: {
         type: String,
         default: 'left',
@@ -54,9 +59,9 @@
     border: 1px solid var(--border-color);
     background: var(--button-bg);
     display: inline-flex;
-    justify-content: center;
+    justify-content: center; /* flex盒子内的元素居中 */
     align-items: center;
-    vertical-align: middle; /* 使内联元素上下对齐 */
+    vertical-align: middle; /* 使内联元素（外部元素）上下对齐 */
 
     &:hover { border-color: var(--border-color-hover); }
     &:active { background-color: var(--button-active-bg); }
