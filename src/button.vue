@@ -26,7 +26,18 @@
 </template>
 <script>
   export default {
-    props: ['icon', 'iconPosition']
+    // props: ['icon', 'iconPosition'], iconPosition 不传值得话为undefined
+    props: {
+      icon: {},
+      iconPosition: {
+        type: String,
+        default: 'left',
+        // 防错处理，如果传的不是right和left就报错
+        validator (value) {
+          return value === 'left' || value === 'right'
+        }
+      }
+    }
   }
 </script>
 <style lang="scss">
