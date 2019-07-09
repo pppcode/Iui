@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d069750-2c1f-4fa6-bcce-d346cb6f8a6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+            <state relative-caret-position="527">
+              <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -109,8 +109,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="947" />
-    <option name="y" value="66" />
+    <option name="x" value="745" />
+    <option name="y" value="133" />
     <option name="width" value="1102" />
     <option name="height" value="887" />
   </component>
@@ -178,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562640220867</updated>
       <workItem from="1562640224621" duration="2218000" />
-      <workItem from="1562642462573" duration="24022000" />
+      <workItem from="1562642462573" duration="24621000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1562641187262</created>
@@ -271,14 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562668523279</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="使用 chai.expect 添加四个测试用例，第五个稍复杂">
+      <created>1562672922970</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562672922970</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26240000" />
+    <option name="totallyTimeSpent" value="26839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="69" width="1102" height="887" extended-state="0" />
+    <frame x="696" y="134" width="1102" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.5013405" side_tool="true" weight="0.2520747" />
@@ -322,7 +329,8 @@
     <MESSAGE value="创建 button group" />
     <MESSAGE value="检测子元素是不是 button" />
     <MESSAGE value="第一个元素不需要 margin left -1px" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一个元素不需要 margin left -1px" />
+    <MESSAGE value="使用 chai.expect 添加四个测试用例，第五个稍复杂" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.expect 添加四个测试用例，第五个稍复杂" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/button.js">
@@ -396,8 +404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        <state relative-caret-position="527">
+          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
