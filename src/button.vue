@@ -2,7 +2,7 @@
   <!-- CSS 控制类，再去添加对应的样式（改变元素的展示顺序） -->
   <button class="g-button" :class="{[`icon-${iconPosition}`]: true}">
     <!--  拆分icon组件  -->
-    <g-icon v-if="icon" :name="icon"></g-icon>
+    <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
     <div class="content">
       <slot></slot>
     </div>
