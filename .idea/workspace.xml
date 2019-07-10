@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d069750-2c1f-4fa6-bcce-d346cb6f8a6a" name="Default Changelist" comment="" />
+    <list default="true" id="1d069750-2c1f-4fa6-bcce-d346cb6f8a6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -68,9 +70,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="725" />
-    <option name="y" value="694" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="709" />
+    <option name="y" value="102" />
     <option name="width" value="1102" />
     <option name="height" value="887" />
   </component>
@@ -144,7 +146,7 @@
       <updated>1562640220867</updated>
       <workItem from="1562640224621" duration="2218000" />
       <workItem from="1562642462573" duration="25019000" />
-      <workItem from="1562722046768" duration="7409000" />
+      <workItem from="1562722046768" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1562641187262</created>
@@ -255,10 +257,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34646000" />
+    <option name="totallyTimeSpent" value="35072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="725" y="694" width="1102" height="887" extended-state="0" />
+    <frame x="853" y="214" width="1102" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.5013405" side_tool="true" weight="0.2520747" />
@@ -382,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/button.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -416,10 +411,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
