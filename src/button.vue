@@ -26,7 +26,11 @@
   -->
 </template>
 <script>
+  import Icon from './icon'
   export default {
+    components: {
+      'g-icon': Icon
+    },
     // props: ['icon', 'iconPosition'], iconPosition 不传值得话为undefined
     props: {
       icon: {},
