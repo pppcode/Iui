@@ -6,6 +6,7 @@
 
 <script>
   export default {
+    name: 'GuluButtonGroup',
     // 子元素必须为button，若为其他提示此信息
     mounted() {
       for (let node of this.$el.children) {
@@ -18,7 +19,7 @@
   }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .g-button-group {
     display: inline-flex;
     vertical-align: middle;
