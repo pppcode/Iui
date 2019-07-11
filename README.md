@@ -1,6 +1,8 @@
  # Iui - 一个 Vue UI 组件
-
- 作者：pppcode
+ 
+[![Build Status](https://travis-ci.org/pppcode/Iui.svg?branch=master)](https://travis-ci.org/pppcode/Iui)
+ 
+作者：pppcode
  
 ## 介绍
 
