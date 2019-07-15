@@ -38,12 +38,14 @@ new Vue({
   },
 
   created(){
-
+    this.$toast('文字文字',{
+      enableHtml: false
+    })
   },
 
   methods: {
     showToast() {
-      this.$toast('我是 message')
+
     }
   }
 })
