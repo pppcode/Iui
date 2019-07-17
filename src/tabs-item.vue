@@ -43,8 +43,13 @@
 </script>
 <style scoped lang="scss">
   .tabs-item {
+    display: flex;
+    align-items: center;
     flex-shrink: 0;
+    height: 100%;
     padding: 0 1em;
+    cursor: pointer;
+    border: 1px solid green;
     &.active {
       background: red;
     }
