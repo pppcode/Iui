@@ -13,7 +13,10 @@
     inject: ['eventBus'],
     created() {
       this.eventBus.$on('update:selected', (item, vm) => {
-        console.log(item);
+        let {width, height, top, left} = vm.$el.getBoundingClientRect()
+        console.log(width, height, top, left)
+        this.$refs.line.style.width = `${width}px`
+        this.$refs.line.style.left = `${left}px`
       })
     }
   }
@@ -30,8 +33,8 @@
     > .line {
       position: absolute;
       bottom: 0;
-      width: 100px;
       border-bottom: 1px solid $blue;
+      transition: all 250ms;
     }
     > .actions-wrapper {
       margin-left: auto;
