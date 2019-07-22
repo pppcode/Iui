@@ -1,7 +1,7 @@
 <template>
-  <div class="collapseItem" @click="toggle">
-    <div class="title">
-      {{title}} {{single}}
+  <div class="collapseItem">
+    <div class="title" @click="toggle" :data-name="name">
+      {{title}}
     </div>
     <div class="content" ref="content" v-if="open">
       <slot></slot>
