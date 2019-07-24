@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-head">
+  <div class="tabs-head" ref="head">
     <slot></slot>
     <div class="line" ref="line"></div>
     <div class="actions-wrapper">
@@ -11,13 +11,18 @@
   export default {
     name: 'GuluTabsHead',
     inject: ['eventBus'],
-    created() {
+    mounted () {
       this.eventBus.$on('update:selected', (item, vm) => {
-        let {width, height, top, left} = vm.$el.getBoundingClientRect()
-        console.log(width, height, top, left)
-        this.$refs.line.style.width = `${width}px`
-        this.$refs.line.style.left = `${left}px`
+        this.updateLinePosition(vm)
       })
+    },
+    methods: {
+      updateLinePosition (selectedVm) {
+        let {width, left} = selectedVm.$el.getBoundingClientRect()
+        let {left: left2} = this.$refs.head.getBoundingClientRect()
+        this.$refs.line.style.width = `${width}px`
+        this.$refs.line.style.left = `${left - left2}px`
+      }
     }
   }
 </script>
@@ -29,13 +34,13 @@
     display: flex;
     height: $tab-height;
     justify-content: flex-start;
-    border-bottom: 1px solid $border-color;
     position: relative;
+    border-bottom: 1px solid $border-color;
     > .line {
       position: absolute;
       bottom: 0;
       border-bottom: 1px solid $blue;
-      transition: all 250ms;
+      transition: all 350ms;
     }
     > .actions-wrapper {
       margin-left: auto;

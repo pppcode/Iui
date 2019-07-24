@@ -1,66 +1,37 @@
- # Iui - 一个 Vue UI 组件
- 
-[![Build Status](https://travis-ci.org/pppcode/Iui.svg?branch=master)](https://travis-ci.org/pppcode/Iui)
- 
-作者：pppcode
- 
-## 介绍
+# Iui
 
-这是我在学习 Vue 过程中做的一个 UI 框架，希望对你有用。
+[官方文档]()
 
-## 开始使用
+Iui 是一个 UI 框架，提供了 Layout Grid Button Input Tabs Popover Toast 等常用组件，适合 PC 端使用。
 
-1. 添加 CSS 样式
+本 UI 框架是基于 Vue 2 实现的。
 
-    使用本框架前，请在 CSS 中开启 border-box
-    
-    ```
-    *,*::before,*::after{box-sizing: border-box;}
-    ```
-    IE 8 及以上浏览器都支持此样式。
-    
-    你还需要设置默认颜色等变量（后续会改为 SCSS 变量）
-    ```
-    :root {
-      --button-height: 32px;
-      --font-size: 14px;
-      --button-bg: white;
-      --button-active-bg: #eee;
-      --border-radius: 4px;
-      --color: #333;
-      --border-color: #999;
-      --border-color-hover: #666;
-    }
-    ```
-    IE 15 及以上浏览器都支持此样式。
+## 背景
 
-2. 安装 Iui
-    ```
-    npm i --save Iui-demo
-    ```
-    
-3. 引入 Iui
-    ```
-    import { Button, ButtonGroup, Icon } from "iui-demo";
-    import "iui-demo/dist/index.css";
-    
-    export default {
-      name: "app",
-      components: {
-        HelloWorld,
-        "g-button": Button,
-      }
-    };
-    ```
-    
+通过从0写一个 UI 框架，来熟悉 Vue 的大多数功能，单元测试、覆盖率、持续集成等工程概念，
+重构、TDD/BDD、设计模式、单向数据流等技术概念。
 
-## 文档
+## 项目特点
 
-## 提问
+1. 使用 Travis CI 进行持续集成。
+2. 有丰富的单元测试，项目完成时，期望测试覆盖率超过 90%。
+4. 使用 parcel 构建。
 
-## 变更记录
+## 有哪些组件
+
+按钮、输入框、栅格、布局、Toast、Tabs、Popover。
+
+## 源码学习
+
+1. 安装依赖
+    ```
+    yarn install
+    ```
+2. 启动项目
+    ```
+    yarn start
+    ```
 
 ## 联系方式
 
-## 贡献代码
-
+974270397@qq.com。

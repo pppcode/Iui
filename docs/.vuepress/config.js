@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/Iui/',
   title: 'Iui',
   description: '这是一个 Vue UI 框架',
   themeConfig: {
@@ -20,7 +21,13 @@ module.exports = {
         title: '组件',
         collapsable: false,
         children: [
-          '/components/button'
+          '/components/layout',
+          '/components/grid',
+          '/components/button',
+          '/components/input',
+          '/components/tabs',
+          '/components/popover',
+          '/components/toast',
         ]
       }
     ]

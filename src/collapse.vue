@@ -1,11 +1,6 @@
 <template>
   <div class="collapse">
-    <div>
-      {{title}}
-    </div>
-    <div>
       <slot></slot>
-    </div>
   </div>
 </template>
 <script>
